@@ -5,12 +5,17 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
+  box-sizing: content-box;
 }
 
 ul {
 }
 
 img {
+  display: block;
+  height: auto;
+  width: 100%;
+
 }
 
 input[type="password"],
@@ -19,6 +24,7 @@ input[type="text"],
 input[type="submit"],
 textarea,
 button {
+  appearance: none;
 }
 
 button,
